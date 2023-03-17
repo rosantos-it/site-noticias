@@ -12,19 +12,23 @@
 
 header {
     height: 240px;
+    margin: 0;
+    padding: 0;
     background-color: #151F42;
 }
 
 footer {
     height: 100px;
+    margin: 0;
+    padding: 0;
     background-color: #151F42;
 
 }
 
 .logo {
     width: 580px;
-    position: absolute;
     left: 65vh;
+    position:sticky;
 }
 
 .textoRodape {
@@ -55,4 +59,17 @@ a:visited {
 
 a:hover {
     color: #8E6AC1;
+}
+
+.divMaisLidas {
+    width: 600px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.divGeral {
+    width: 650px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display:inline-block;
 }
