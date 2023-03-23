@@ -11,7 +11,7 @@
 .subtitulo {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space:nowrap;
+    white-space: nowrap;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -45,7 +45,7 @@ img {
     border-radius: 10px;
 }
 
-.geral {
+.geralImg {
     width: 500px;
     height: 310px;
 }
