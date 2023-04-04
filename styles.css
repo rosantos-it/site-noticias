@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
 .tituloUm {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -17,7 +22,7 @@
 
 header {
     width: auto;
-    height: 240px;
+    height: 220px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -25,16 +30,20 @@ header {
     background-color: #151F42;
 }
 
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
 footer {
     width: auto;
-    height: 100px;
+    height: 90px;
     margin: 0;
     padding: 0;
     background-color: #151F42;
-
 }
 
-.textoRodape {
+.containerRodape {
     text-align: center;
     padding-top: 23px;
     color: #ffff;
@@ -72,7 +81,6 @@ a {
     padding-right: 5px;
     padding-bottom: 5px;
     text-decoration: none;
-
 }
 
 .divMaisLidas {
@@ -82,7 +90,7 @@ a {
 }
 
 .divGeral {
-    width: 650px;
+    width: 600px;
     margin-left: 10px;
     margin-bottom: 10px;
     display: inline-block;
